@@ -12,14 +12,6 @@
 
 <br>
 
-<!-- Hacktoberfest 2022 -->
-
-
-## ![Logo](https://user-images.githubusercontent.com/72182438/190960356-25d52729-7111-4584-ab76-2009fdcb212d.svg)       Hacktoberfest 2022
-
-#### For Hacktoberfest contribution please read the [CONTRIBUTING.md](CONTRIBUTING.md) and join our [Discord](https://discord.gg/Z9hbT8RGNG) server.
-
-
 <!-- ABOUT THE PROJECT -->
 
 ## 💁 About The Project
@@ -178,34 +170,5 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-⚠️ Also, refer to [`CONTRIBUTING.md`](CONTRIBUTING.md) 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-## 🧑🏽‍💻 Maintainers
-
-<div align="center" display="flex">
-<a href="https://github.com/anomic30">
-<img src="https://user-images.githubusercontent.com/72182438/190963370-f9ce9b2c-7300-45a0-aa31-18911ed93802.png" width="45%"/>
-</a>
-<a href="https://github.com/Sneakad">
-<img src="https://user-images.githubusercontent.com/72182438/190963366-e349a51c-64c2-4fb8-8293-d0d213f55db5.png" width="45%" />
-</a>
-
-</div>
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 🛡️ License
-
-Distributed under the MIT License. See [`LICENSE.md`](LICENSE.md) for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## 🥰 Endnote
-
-Just one last thing, if you have reached this far, why not consider giving a star to the repo. This keeps us going, and we love to see that people like our projects, and motivates us to make more of these. With that, thank you loads 😊🥰
-
-<p align="right">~ Storz team</p>
