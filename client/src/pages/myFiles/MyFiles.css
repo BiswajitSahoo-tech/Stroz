@@ -1,0 +1,229 @@
+.MyFiles{
+    width: 100%;
+    height: 100%;
+    max-width: 1064px;
+    margin: 0 auto;
+}
+
+.search-box img{
+    width: 38px;
+    height: 38px;
+}
+
+.table-con{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    transition: 0.3s;
+    overflow-x:auto;
+}
+
+.table-con table{
+    width: 100%;
+    border-spacing: 0 !important;
+}
+
+.table-glass{
+	box-sizing: border-box;
+    width: 800px;
+    padding: 30px;
+	margin: 0 1rem;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.13);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+}
+
+.table-con th{
+    font-weight: 100;
+    font-size: var(--font-size-lg);
+    font-family: PolySans Slim;
+    color: var(--secondary-color);
+    text-align: left;
+    height: 22px;
+    border-bottom: 2px solid #999999;
+    padding: 0 1rem 6px 1rem;
+}
+
+.table-con tbody{
+    color: white;
+}
+
+.table-con tbody * {
+    white-space: nowrap;
+}
+
+.table-con tbody tr{
+    font-family: PolySans Slim;
+    height:45px;
+    border-bottom: 2px solid #999999 !important;
+}
+
+.table-con tbody tr td{
+	padding: 0 1rem;
+    font-size: var(--font-size-md);
+    border-bottom: 1px solid #999999 !important;
+}
+
+#first-col{
+    width: 70%;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: normal;
+}
+
+tbody img{
+    width: 20px;
+    height: 20px;
+}
+
+tbody .visible{
+    padding-right: 10px;
+}
+
+.spinner-con{
+    display: flex;
+    justify-content: center;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< CSS for File Desc Component >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.file-desc{
+    color:#C3C3C3 ;
+    font-family: PolySans Neutral;
+    font-size: var(--font-size-lg);
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+
+.file-header p{
+    font-family:PolySans Median;
+    font-size: 40px;
+    color: white;
+}
+
+.file-header{
+    width: 100%;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-con{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-inp{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 40px;
+    background: rgba(18, 20, 24, 0.54);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;   
+}
+.search-inp input{
+    background: none;
+    border: none;
+    outline: none;
+    color: rgb(222, 222, 222);
+    font-size: 20px;
+    width:550px;
+    margin-left: 10px;
+    font-family:PolySans Slim;
+}
+
+.search-con img{
+    left:540px;
+    height: 30px;
+}
+
+.file-row:hover{
+    cursor: pointer;
+}
+
+.pagignation{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    color: var(--primary-color);
+    font-weight: 700;
+    cursor: pointer;
+}
+.li{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.active-page{
+    outline: none;
+    margin: 2px;
+    color: black;
+    background-color: #00ffa8;
+    border-radius: 4px;
+    height: 25px;
+    width: 25px;
+}
+.prevarrow{
+    background-image: url(../../assets/icons/arrow.png);
+    width: 20px;
+    background-repeat: no-repeat;
+    height: 20px;
+    outline: none;
+    transform: rotate(180deg) scale(0.8);
+    margin-right:8px ;
+}
+.nextarrow{
+    background-image: url(../../assets/icons/arrow.png);
+    width: 20px;
+    background-repeat: no-repeat;
+    height: 20px;
+    outline: none;
+    margin-left:8px ;
+    transform: scale(0.8);
+}
+
+@media screen and (max-width: 800px) {
+    .tablr-con{
+        width: calc(100% - 2rem);
+		text-overflow: ellipsis;
+    }
+	.tablr-con th {
+		font-size: var(--font-size-md);
+	}
+    .table-glass{
+        margin: 20px;
+    }
+	.table-con tbody * {
+		font-size: var(--font-size-sm) !important;
+	}
+	.table-con tbody tr td {
+		padding: 0 0.2rem;
+	}
+	.table-con thead tr th:nth-child(1),
+	.table-con tbody tr td:nth-child(1) {
+		display: none;
+	}
+	.table-con thead tr th {
+		padding-left: 0.2rem;
+	}
+    .first-col{
+        width: 30%;
+    }
+}
