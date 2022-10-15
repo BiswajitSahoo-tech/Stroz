@@ -16,17 +16,6 @@ Lets grab the API keys...
 
 ### 4. Follow the steps of [client/README.md](../client/README.md) and copy the SECRET Key from the 3rd step and paste it inside the .env file.
 
-### 5. For the MongoDB server, we have already created a test server for the development purpose. Copy the string below and paste it inside the .env file.
-```
-mongodb+srv://storz-dev:hacktoberfest@cluster0.pvq1ns2.mongodb.net/?retryWrites=true&w=majority
-```
-
-Also, you are free to create your own [MongoDB server](https://www.mongodb.com/atlas/database) if required.
-
-</br>
-
-### ⚠️ If you don't have a credit card and unable to generate the API keys from Infura, join our [Discord](https://discord.gg/Z9hbT8RGNG) and DM an admin to get the keys.
-
 </br>
 
 ## Available Scripts
